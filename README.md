@@ -5,9 +5,9 @@ A rest api is exposed which determines the possible path between two cities. If 
 
 # Technologies
 
-Spring Boot 2.x
-Java 1.8
-Maven
+Spring Boot 2.x,
+Java 1.8,
+Maven,
 Mockito for Unit testing.
 
 # Implementation Steps
