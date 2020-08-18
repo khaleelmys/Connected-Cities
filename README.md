@@ -2,12 +2,17 @@
 application determines if two cities are connected. Two cities are considered connected if there’s a series of roads that can be traveled from one city to another.
 
 A rest api is exposed which determines the possible path between two cities. If path exists then return "Yes" or "No" in response
+
 Technologies
 
-Spring Boot 2.x,
+Spring Boot 2.x
+
 Java 1.8
+
 Maven
+
 Mockito for Unit testing.
+
 Implementation Steps
 
 After analyzing the requirement, it is considered to use collection to compute the path between two cities where they are not directly connected
