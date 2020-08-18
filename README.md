@@ -3,14 +3,10 @@ application determines if two cities are connected. Two cities are considered co
 
 A rest api is exposed which determines the possible path between two cities. If path exists then return "Yes" or "No" in response
 
-Technologies
-
+#Technologies
 Spring Boot 2.x
-
 Java 1.8
-
 Maven
-
 Mockito for Unit testing.
 
 Implementation Steps
@@ -39,16 +35,15 @@ Build Status
     Success
 
 Code repository in GITHUB
-
-    Connected-Cities GITHUB url
+    https://github.com/khaleelmys/Connected-Cities
 
 Installation
 
     Please clone above git repo or download the project zip file from github.
     NO further config or settings needed.
-    Build the project from terminal \Connected-Cities> mvn clean install
+    Build the project from terminal \Connected-Cities-master> mvn clean install
     Shows BUILD SUCCESS on project compilation and test classes pass through.
-    To execute the application please run below command from terminal \Connected-Cities> java -jar target/Connected-Cities-0.0.1-SNAPSHOT.jar
+    To execute the application please run below command from terminal \Connected-Cities-master> java -jar target/Connected-Cities-master-0.0.1-SNAPSHOT.jar
     Server will up running on 8080
     Tomcat started on port(s): 8080 (http) with context path
     
