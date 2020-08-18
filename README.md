@@ -15,11 +15,14 @@ Mockito for Unit testing.
 After analyzing the requirement, it is considered to use collection to compute the path between two cities where they are not directly connected
 
     city.txt - Given a text file consists of pair of cities in each line with comma(,) separated.
+    
     CityUtil.java - Config file reads the textfile and places all the cities in Map collection 
+    
     CityPairController.java - An API is exposed through a rest controller web method - isConnected(),
     which takes 2 inputs origin and destination as Query Parameters
+    
     CityPairService.java - A service class is invoked from controller which process the inputs
-    and compute the path of the cities.
+    and compute the path of the cities and return yes or no
     
     Endpoints - test in postman.
         http://localhost:8080/connected?origin=Boston&destination=Newark
@@ -51,7 +54,7 @@ Build Status
     Build the project from terminal \Connected-Cities-master> mvn clean install
     Shows BUILD SUCCESS on project compilation and test classes pass through.
     To execute the application please run below command from terminal 
-    \Connected-Cities-master> java -jar target/Connected-Cities-master-0.0.1-SNAPSHOT.jar
+    \Connected-Cities-master> java -jar target/assignment-0.0.1-SNAPSHOT.jar
     Server will up running on 8080
     Tomcat started on port(s): 8080 (http) with context path
     
