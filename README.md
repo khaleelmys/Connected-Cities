@@ -3,13 +3,14 @@ application determines if two cities are connected. Two cities are considered co
 
 A rest api is exposed which determines the possible path between two cities. If path exists then return "Yes" or "No" in response
 
-#Technologies
+# Technologies
+
 Spring Boot 2.x
 Java 1.8
 Maven
 Mockito for Unit testing.
 
-Implementation Steps
+# Implementation Steps
 
 After analyzing the requirement, it is considered to use collection to compute the path between two cities where they are not directly connected
 
@@ -34,10 +35,10 @@ Build Status
 
     Success
 
-Code repository in GITHUB
+# Code repository in GITHUB
     https://github.com/khaleelmys/Connected-Cities
 
-Installation
+# Installation
 
     Please clone above git repo or download the project zip file from github.
     NO further config or settings needed.
@@ -47,6 +48,6 @@ Installation
     Server will up running on 8080
     Tomcat started on port(s): 8080 (http) with context path
     
-Screenshots For Proof
+# Screenshots For Proof
 
     Screenshots - screenshots of code snippet, unit test cases execution and api calls through postman are recorded in git document.
